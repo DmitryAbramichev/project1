@@ -8,78 +8,115 @@
   </head>
   <body>
     <header class="header">
-    <div class="header__container-left">
-      <button class="header__icons btn" type="button">
-        <img class="logo" src="icons/burger.svg" alt="s" />
-      </button>
-      <div class="header__divider tablet">
-        <img src="icons/divider.png" alt="" />
+      <div class="header__container-left divider-left">
+        <button class="header__icons btn">
+          <img class="logo" src="icons/burger.svg" alt="s" />
+        </button>
+        <a class="header__logo" href="/">
+          <img class="header__cps" src="icons/CPS.svg" alt="" />
+        </a>
       </div>
-      <a class="header__logo" href="/">
-        <img class="header__cps" src="icons/CPS.svg" alt="" />
-      </a>
-    </div>
-    <div class="header__container-right">
-    <ul class="top-bar">
-      <li class="btn-item tablet"><button class="btn"><img class="header__phone" src="icons/icon-phone.svg" alt="s"/></button></li>
-      <li class="btn-item tablet"><button class="btn"><img class="header__message" src="icons/icon-message.svg" alt="s"
-      /></button></li>
-      <li class="btn-item tablet"><button class="btn"><img class="header__contacts" src="icons/icon-contacts.svg" alt="s"
-      /></button></li>
-      <img class="header__divider" src="icons/divider.png" alt="" />
-      <li class="btn-item"><button class="btn"><img class="header__tools" src="icons/Group.svg" alt="s" /></button></li>
-      <li class="btn-item"><button class="btn"><img class="header__search" src="icons/icon-search.svg" alt="s" /></button></li>
-    </ul>
-  </div>
-</header>
+      <div class="header__container-right divider-right">
+        <ul class="top-bar">
+          <li class="btn-item tablet">
+            <button class="btn">
+              <img class="header__phone" src="icons/icon-phone.svg" alt="s" />
+            </button>
+          </li>
+          <li class="btn-item tablet">
+            <button class="btn">
+              <img
+                class="header__message"
+                src="icons/icon-message.svg"
+                alt="s"
+              />
+            </button>
+          </li>
+          <li class="btn-item tablet">
+            <button class="btn">
+              <img
+                class="header__contacts"
+                src="icons/icon-contacts.svg"
+                alt="s"
+              />
+            </button>
+          </li>
+          <li class="btn-item divid">
+            <button class="btn">
+              <img class="header__tools" src="icons/Group.svg" alt="s" />
+            </button>
+          </li>
+          <li class="btn-item">
+            <button class="btn">
+              <img class="header__search" src="icons/icon-search.svg" alt="s" />
+            </button>
+          </li>
+        </ul>
+      </div>
+    </header>
     <main class="main">
       <div class="main__header">
         <h1>Услуги и сервисы</h1>
         <div class="btn-item-laptop">
-          <div class="btn-item"><p class="btn-item-laptop__text">Оставить заявку</p><button class="btn"><img class="header__tools" src="icons/Group.svg" alt="s" /></button></div>
-      <div class="btn-item"><p class="btn-item-laptop__text">Статус ремонта</p><button class="btn"><img class="header__search" src="icons/icon-search.svg" alt="s" /></button></div>
-    </div>
-    </div>
+          <div class="btn-item">
+            <p class="btn-item-laptop__text">Оставить заявку</p>
+            <button class="btn">
+              <img class="header__tools" src="icons/Group.svg" alt="s" />
+            </button>
+          </div>
+          <div class="btn-item">
+            <p class="btn-item-laptop__text">Статус ремонта</p>
+            <button class="btn">
+              <img class="header__search" src="icons/icon-search.svg" alt="s" />
+            </button>
+          </div>
+        </div>
+      </div>
       <div class="main__nav">
-        <nav class="navigation-swiper">
-          <ul class="navigation-swiper__list">
-            <li class="navigation-swiper__item active">
-              <p class="navigation-swiper__text">Ремонтируемые устройства</p>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item active">
+              <p class="navigation__text">Ремонтируемые устройства</p>
             </li>
-            <li class="navigation-swiper__item">
-              <p class="navigation-swiper__text">Дополнительные услуги</p>
+            <li class="navigation__item">
+              <p class="navigation__text">Дополнительные услуги</p>
             </li>
-            <li class="navigation-swiper__item">
-              <p class="navigation-swiper__text">Цены на услуги</p>
+            <li class="navigation__item">
+              <p class="navigation__text">Цены на услуги</p>
             </li>
-            <li class="navigation-swiper__item">
-              <p class="navigation-swiper__text">Адреса сервисных центров</p>
+            <li class="navigation__item">
+              <p class="navigation__text">Адреса сервисных центров</p>
             </li>
-            <li class="navigation-swiper__item">
-              <p class="navigation-swiper__text">Специальные цены</p>
+            <li class="navigation__item">
+              <p class="navigation__text">Специальные цены</p>
             </li>
-            <li class="navigation-swiper__item">
-              <p class="navigation-swiper__text">Отзывы</p>
+            <li class="navigation__item">
+              <p class="navigation__text">Отзывы</p>
             </li>
           </ul>
         </nav>
         <section class="main__body">
           <div class="tablet-text">
-          <div class="expert">
-            <p class="expert__text">
-              Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-<p></p>
-<p class="expert__text">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-            </p>
-          </div>
-        
-          <div class="read-more">
-            <div class="arrow-container">
-              <img class="arrow" src="icons/arrow.svg" alt="" />
+            <div class="expert">
+              <p class="expert__text">
+                Мы являемся авторизованным сервисным центром по ремонту техники
+                Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+                официальной гарантией производителя.
+                <br /><br />
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного
+                партнера, что подтверждает большое количество постоянных
+                клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям
+                и, в свою очередь, советуют нас родным и близким.
+              </p>
             </div>
-            <div class="read-more__text">Читать далее</div>
+
+            <button class="read-more">
+              <div class="arrow-container">
+                <img class="arrow" src="icons/arrow.svg" alt="" />
+              </div>
+              <div class="read-more__text">Читать далее</div>
+            </button>
           </div>
-        </div>
           <img class="img" src="icons/image.jpg" alt="" />
         </section>
       </div>
